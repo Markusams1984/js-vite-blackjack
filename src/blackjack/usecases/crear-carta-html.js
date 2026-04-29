@@ -12,7 +12,7 @@ export const crearCartaHTML = ( carta ) => {
 
 // <img class="carta" src="assets/cartas/2C.png">
         const imgCarta = document.createElement('img');
-        imgCarta.src = `assets/cartas/${ carta }.png`;
+        imgCarta.src = `/js-vite-blackjack/assets/cartas/${ carta }.png`;
         imgCarta.classList.add('carta');
 
     return imgCarta;
