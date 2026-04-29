@@ -30,6 +30,6 @@ Bajar el proyecto:
 # cuando ya terminaste tu juego y quieres publicarlo en internet para que cualquier persona lo pueda jugar, no solo tú en tu computadora. Se llama el proceso de Producción.
 
 1. Ejecutar "npm run build" Este comando es como una "licuadora" de código. Toma todos tus archivos de desarrollo (los que están en la carpeta src, tus imágenes y estilos) y los comprime, optimiza y limpia.
-Resultado: Crea una carpeta nueva llamada dist (que viene de distribution).
+Resultado: "Resultado: Crea (o actualiza) la carpeta docs".
 
 2. Tomar la carpeta dist y desplegarla La carpeta dist contiene la versión final "empaquetada" de tu juego.Es la única carpeta que necesitas subir a un servicio de hosting (como Netlify, Vercel o GitHub Pages). No necesitas subir todo el proyecto, solo lo que está dentro de dist.
